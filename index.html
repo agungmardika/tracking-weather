@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Check</title>
-    
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 
 <body>
     <main class="">
-        <div class="flex justify-center my-20 border-4 border-gray-50">
-            <div class="">
-                <div class="">
-                    <h2 class="text-2xl font-semibold">Check Weather</h2>
-                </div>
-                <input type="text" class="border-2 border-black rounded-lg h-10 pl-3" id="input-keyword"
-                    aria-describedby="button-addon2">
-                <button id="button-addon2" type="button">Search</button>
-            </div>
 
-        </div>
-        <div class="result text-black mt-10">
+        <div class="my-20">
+            <h2 class="text-2xl font-semibold mr-10 flex justify-center mb-5 ">Weather Check Application</h2>
+            <div class="flex justify-center  ">
+                <div class="flex justify-center border-2 border-blue-200 pr-4 rounded-lg py-2">
+                    <input type="text" class=" rounded-lg h-10 pl-3 focus:outline-none" id="input-keyword"
+                        placeholder="Input City or Region" aria-describedby="button-addon2">
+                    <button id="button-addon2" type="button"
+                        class="ml-5 font-semibold bg-blue-600 text-white rounded-lg px-4 py-2">Search</button>
+                </div>
+
+            </div>
+            <div class="result text-black mt-10">
+            </div>
         </div>
     </main>
     <script src="script.js"></script>
