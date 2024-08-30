@@ -4,7 +4,7 @@ The Weather Check API is a simple web application that allows users to check the
 
 ## Live Demo
 
-You can access the live demo of this project here: [Weather Check API](https://agungmardika.github.io/weather_check_api/)
+You can access the live demo of this project here: [Weather Check API](https://agungmardika.github.io/weather_check_api/){:target="_blank"}
 
 ## Features
 
